@@ -22,10 +22,12 @@ function App() {
 	}, []);
 	return (
 		<main>
-			<h1>Create React App + Go API</h1>
-			<LottieComponent url={url1} height={height} width={width} />
-			<LottieComponent url={url2} />
-			<LottieComponent url={'https://assets9.lottiefiles.com/packages/lf20_QY9umH.json'} />
+			<h1>Embedded Nature</h1>
+      <h2>Lottie Demo</h2>
+
+			<LottieComponent url={url1} height={height} width={width} name={'heart'}/>
+			<LottieComponent url={url2} height={400} width={400} name={'purple burst'}/>
+			<LottieComponent url={'https://assets9.lottiefiles.com/packages/lf20_QY9umH.json'} height={height} width={width} name={'Wave'}/>
 
 			<h2>
 				Deployed with{' '}

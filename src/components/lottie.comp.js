@@ -17,15 +17,16 @@ const LottieComponent = (props) => {
 
 	useEffect(() => {
 		setLottieSate({
-			url: props.url,
+            url: props.url,
+            name: props.name,
 			height: props.height,
 			width: props.width,
 		});
 	}, [props.url]);
 	return (
 		<div className={'lottie-container'}>
-			<h1>Lottie Test </h1>
-			<Lottie options={defaultOptions} height={300} width={300} />
+			<h3>{state.name}</h3>
+			<Lottie options={defaultOptions} height={state.height} width={state.width} />
 		</div>
 	);
 };

@@ -27,3 +27,10 @@ You can deploy your new React project, along with [Serverless Functions](https:/
 ```shell
 $ now
 ```
+
+
+### URL
+
+Lottie: https://airbnb.io/lottie/#/web
+Zeit/Vercel: https://vercel.com/
+Lottie Files: https://lottiefiles.com/
